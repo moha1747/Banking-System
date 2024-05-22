@@ -5,8 +5,11 @@ This project is a banking system implemented in Java and deployed on Apache Tomc
 
 ## Installation
 1. Download and install Apache Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi). (64bit version)
-2. Download Lab-Banking.war file or clone the repository.
-3. Here are resources to get started on [Mac](https://gist.github.com/emadpres/a17c310b9be8c41dc632b5b699af2e1c) and [Windows]()
+   for Mac run
+   ```bash
+    Run brew install tomcat@9 on a Mac terminal
+3. Download Lab-Banking.war file or clone the repository.
+4. Here are resources to get started on [Mac](https://gist.github.com/emadpres/a17c310b9be8c41dc632b5b699af2e1c) and [Windows]()
 
 
 ## Deployment
