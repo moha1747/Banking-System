@@ -4,7 +4,7 @@
 This project is a banking system implemented in Java and deployed on Apache Tomcat 9. It provides basic banking functionalities such as creating accounts, transferring funds, and viewing transaction history.
 
 ## Installation
-1. Download and install Apache Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi). # 64bit version
+1. Download and install Apache Tomcat 9 from the [official website](https://tomcat.apache.org/download-90.cgi). (64bit version)
 2. Clone this repository or download the project files.
 3. Build the project using your preferred IDE or build tool. Ensure that the project generates a .war file.
 
