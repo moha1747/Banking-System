@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up - Banking System</title>
+  <meta http-equiv='Cache-Control' content='no-cache'>
+  <meta http-equiv='Pragma' content='no-cache'>
+  <meta http-equiv='Expires' content='0'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="icon" href="https://cdn-icons-png.freepik.com/256/2830/2830284.png?semt=ais_hybrid">
+</head>
+
+<body>
+<header>
+  <h2><i class="fas fa-university"></i> Banking System</h2>
+</header>
+<div class="container">
+  <h1>Sign Up for Online Banking</h1>
+  <h3>Access your account or start your journey with us today</h3>
+
+  <form method="POST" action="CreateMainAccount">
+    <div class="input-group">
+      <i class="fas fa-briefcase"></i>
+      <select name="account-type">
+        <option value="checking" selected="selected">Checking</option>
+        <option value="saving">Saving</option>
+        <option value="brokerage">Brokerage</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <i class="fas fa-user"></i>
+      <input type="text" name="username" placeholder="Unique username..." required>
+    </div>
+    <div class="input-group">
+      <i class="fas fa-lock"></i>
+      <input type="password" name="password" placeholder="Create a password..." required>
+    </div>
+    <div class="input-group">
+      <i class="fas fa-dollar-sign"></i>
+      <input type="number" name="initial-deposit" placeholder="Initial Deposit ($)" step="10" min="0" required>
+    </div>
+    <div class="buttons">
+      <a href="login.htm"><button type="button">Log In</button></a>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+</body>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/010/518/840/original/digital-finance-and-banking-service-in-futuristic-background-bank-building-with-online-payment-transaction-secure-money-and-financial-innovation-technology-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+  }
+
+  header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.2em;
+  }
+
+  header h2 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  h3 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+
+  header i {
+    margin-right: 10px;
+  }
+
+  .container {
+    text-align: center;
+    background-color: #67C6E3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 350px;
+
+  }
+
+  .input-group {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .input-group i {
+    padding: 10px;
+    background-color: #DFF5FF;
+    color: #666;
+  }
+
+  select,
+  input[type="text"],
+  input[type="password"],
+  input[type="number"] {
+    flex: 1;
+    border: none;
+    padding: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    background-color: #378CE7;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #67a9ea;
+  }
+
+  button[type="button"] {
+    background-color: #ff5847;
+    margin-right: 10px;
+  }
+
+  button[type="button"]:hover {
+    background-color: #ff6f7c;
+  }
+</style>
+
+</html>

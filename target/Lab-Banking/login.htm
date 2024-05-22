@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sign In - Banking System</title>
+  <meta http-equiv='Cache-Control' content='no-cache'>
+  <meta http-equiv='Pragma' content='no-cache'>
+  <meta http-equiv='Expires' content='0'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="icon" href="https://cdn-icons-png.freepik.com/256/2830/2830284.png?semt=ais_hybrid"> <!-- Make sure to replace 'favicon.ico' with the actual path to your icon file -->
+</head>
+
+<body>
+<header>
+  <h2><i class="fas fa-university"></i> Banking System</h2>
+</header>
+<div class="container">
+  <h1>Welcome to Your Online Bank</h1>
+  <h3>Get started by logging in or registering a new account</h3>
+
+  <form method="POST" action="AccountBalances">
+    <div class="input-group">
+      <i class="fas fa-user"></i>
+      <input type="text" name="login-username" placeholder="Username" autocomplete="off">
+    </div>
+    <div class="input-group">
+      <i class="fas fa-lock"></i>
+      <input type="password" name="login-password" placeholder="Password" autocomplete="off">
+    </div>
+    <div class="buttons">
+      <a href="signup.htm"><button type="button">Sign Up</button></a>
+      <button type="submit">Log In</button>
+    </div>
+  </form>
+</div>
+</body>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/010/518/840/original/digital-finance-and-banking-service-in-futuristic-background-bank-building-with-online-payment-transaction-secure-money-and-financial-innovation-technology-vector.jpg') no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+
+  }
+
+  header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.2em;
+  }
+
+  header h2 {
+    display: flex;
+    align-items: center;
+
+  }
+
+  header i {
+    margin-right: 10px;
+  }
+
+  .container {
+    text-align: center;
+    background-color: #67C6E3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 350px;
+  }
+
+  h1 {
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+
+  .input-group {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .input-group i {
+    padding: 10px;
+    background-color: #DFF5FF;
+    color: #666;
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    flex: 1;
+    border: none;
+    padding: 10px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    background-color: #378CE7;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #67a9ea;
+  }
+
+  button[type="button"] {
+    background-color: #ff5847;
+    margin-right: 10px;
+  }
+
+  button[type="button"]:hover {
+    background-color: #ff6f7c;
+  }
+</style>
+
+</html>
