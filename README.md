@@ -30,5 +30,6 @@ Once Tomcat is running, you can access the application by navigating to `http://
 - Java 17
 - Apache Tomcat 9
 - HTML/CSS
-
+### Screenshots
+![Hero Page](./Screenshots/Hero-Banking)
 ### Currently working on hosting with AWS.
