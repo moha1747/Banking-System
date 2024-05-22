@@ -9,7 +9,7 @@ This project is a banking system implemented in Java and deployed on Apache Tomc
    ```bash
     Run brew install tomcat@9 
 3. Download Lab-Banking.war file or clone the repository.
-4. Here are resources to get started on [Mac](https://gist.github.com/emadpres/a17c310b9be8c41dc632b5b699af2e1c) and [Windows]()
+4. Here are resources to get started on [Mac](https://gist.github.com/emadpres/a17c310b9be8c41dc632b5b699af2e1c) and [Windows](https://github.com/moha1747/Banking-System/blob/main/Windows-Guide.md)
 
 
 ## Deployment
