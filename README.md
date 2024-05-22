@@ -30,3 +30,5 @@ Once Tomcat is running, you can access the application by navigating to `http://
 - Java 17
 - Apache Tomcat 9
 - HTML/CSS
+
+### Currently working on hosting with AWS.
